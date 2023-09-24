@@ -1,0 +1,48 @@
+header{
+  padding: 20px 0;
+  position: fixed;
+  background-color: white;
+  z-index: 999;
+  right: 0;
+  left: 0;
+  box-shadow: 0px 4px 32px 0px rgba(0, 16, 61, 0.16);
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+
+  >a{
+    color: var(--color-text, #2C2D2E);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    transition: 0.3s;
+  }
+
+  >a:hover{
+    color: orange;
+  }
+}
+
+.nav-btn button {
+  padding: 5px 10px;
+  background: none;
+  border: 1px solid orange;
+  color: orange;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.nav-btn button:hover {
+  background-color: orange;
+  color: white;
+}

@@ -1,0 +1,31 @@
+#sertificate{
+  padding: 40px 0;
+  background-color: #00103D0F;
+}
+
+.ser-title{
+  >h2{
+    color: #2C2D2E;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    margin-bottom: 40px;
+
+    >span{
+      color: #EF7C00;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px;
+    }
+  }
+}
+
+.slick-track{
+  display: flex;
+  gap: 10px;
+}

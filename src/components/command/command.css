@@ -1,0 +1,64 @@
+#command{
+  padding: 40px 0;
+}
+
+#command .container{
+  text-align: center;
+  >button{
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #FFF;
+    border: none;
+    background: #EF7C00;
+    margin-top: 20px;
+  }
+  >h2{
+    color: #2C2D2E;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 32px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    margin-bottom: 40px;
+  
+    >span{
+      color: #EF7C00;
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px;
+    }
+  }
+}
+
+.commandrow{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 10px;
+  justify-content: space-between;
+
+  >div{
+    text-align: center;
+  }
+}
+
+@media(max-width:1100px){
+  .commandrow{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width:700px){
+  .commandrow{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width:500px){
+  .commandrow{
+    grid-template-columns:  1fr;
+  }
+}
+
